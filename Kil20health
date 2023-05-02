@@ -638,7 +638,7 @@ local Entities = {
 			Jack:Destroy()
 		end,
 	},
-	BloodEyes = {
+	Eyes = {
 		Func = function(Args)
 			local Damage = Args.Damage or 20
 			local Room = workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]
