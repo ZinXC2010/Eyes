@@ -105,7 +105,7 @@ local SpawnerLibrary = {
 				end
 			end
 
-			firesignal(game.ReplicatedStorage.Bricks.DeathHint.OnClientEvent, Lines)
+			firesignal(game.ReplicatedStorage.Bricks.DeathHint.OnClientEvent, "Bạn Đã Chết Bởi.. Blood Eyes")
 		end)()
 	end
 }
@@ -652,12 +652,12 @@ local Entities = {
 			local Spark = Instance.new("ParticleEmitter", Attachment)
 			Spark.Texture = "rbxassetid://11347853954"
 			Spark.Color = ColorSequence.new{
-				ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 250, 0)),
-				ColorSequenceKeypoint.new(0.324, Color3.fromRGB(255, 250, 0)),
-				ColorSequenceKeypoint.new(0.441, Color3.fromRGB(255, 250, 0)),
-				ColorSequenceKeypoint.new(0.527, Color3.fromRGB(255, 250, 0)),
-				ColorSequenceKeypoint.new(0.675, Color3.fromRGB(255, 250, 0)),
-				ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 250, 0))
+				ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
+				ColorSequenceKeypoint.new(0.324, Color3.fromRGB(255, 0, 0)),
+				ColorSequenceKeypoint.new(0.441, Color3.fromRGB(255, 0, 0)),
+				ColorSequenceKeypoint.new(0.527, Color3.fromRGB(255, 0, 0)),
+				ColorSequenceKeypoint.new(0.675, Color3.fromRGB(255, 0, 0)),
+				ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 0))
 			}
 			Spark.Size = NumberSequence.new(8)
 			Spark.Transparency = NumberSequence.new{
