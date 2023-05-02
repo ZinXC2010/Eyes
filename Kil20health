@@ -639,7 +639,6 @@ local Entities = {
 		end,
 	},
 	Eyes = {
-		Eyes = {
 		Func = function(Args)
 			local Damage = Args.Damage or 25
 			local Room = workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]
