@@ -685,7 +685,7 @@ local Entities = {
 			EyesParticle.LightInfluence = 0
 			EyesParticle.Brightness = 1.26
 			EyesParticle.Size = NumberSequence.new(4)
-			EyesParticle.Texture = "rbxassetid://12608106235"
+			EyesParticle.Texture = "rbxassetid://10183704772"
 			EyesParticle.Color = ColorSequence.new{
 				ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
 				ColorSequenceKeypoint.new(0.46, Color3.fromRGB(255, 0, 0)),
