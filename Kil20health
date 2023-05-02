@@ -640,7 +640,7 @@ local Entities = {
 	},
 	Eyes = {
 		Func = function(Args)
-			local Damage = Args.Damage or 10
+			local Damage = Args.Damage or 20
 			local Room = workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]
 
 			local Eyes = Instance.new("Part", workspace)
