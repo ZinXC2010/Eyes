@@ -652,12 +652,12 @@ local Entities = {
 			local Spark = Instance.new("ParticleEmitter", Attachment)
 			Spark.Texture = "rbxassetid://2581223252"
 			Spark.Color = ColorSequence.new{
-				ColorSequenceKeypoint.new(0, Color3.fromRGB(25, 11, 39)),
-				ColorSequenceKeypoint.new(0.324, Color3.fromRGB(32, 14, 22)),
-				ColorSequenceKeypoint.new(0.441, Color3.fromRGB(20, 30, 14)),
-				ColorSequenceKeypoint.new(0.527, Color3.fromRGB(14, 18, 27)),
-				ColorSequenceKeypoint.new(0.675, Color3.fromRGB(15, 14, 27)),
-				ColorSequenceKeypoint.new(1, Color3.fromRGB(17, 8, 26))
+				ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 250, 0)),
+				ColorSequenceKeypoint.new(0.324, Color3.fromRGB(255, 250, 0)),
+				ColorSequenceKeypoint.new(0.441, Color3.fromRGB(255, 250, 0)),
+				ColorSequenceKeypoint.new(0.527, Color3.fromRGB(255, 250, 0)),
+				ColorSequenceKeypoint.new(0.675, Color3.fromRGB(255, 250, 0)),
+				ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 250, 0))
 			}
 			Spark.Size = NumberSequence.new(8)
 			Spark.Transparency = NumberSequence.new{
