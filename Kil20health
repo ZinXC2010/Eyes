@@ -687,13 +687,13 @@ local Entities = {
 			EyesParticle.Size = NumberSequence.new(4)
 			EyesParticle.Texture = "rbxassetid://10183704772"
 			EyesParticle.Color = ColorSequence.new{
-				ColorSequenceKeypoint.new(0, Color3.fromRGB(255,255,255)),
-				ColorSequenceKeypoint.new(0.46, Color3.fromRGB(255,255,255)),
-				ColorSequenceKeypoint.new(0.509, Color3.fromRGB(129,97,255)),
-				ColorSequenceKeypoint.new(0.612, Color3.fromRGB(17, 0, 255)),
-				ColorSequenceKeypoint.new(0.649, Color3.fromRGB(255, 58, 163)),
-				ColorSequenceKeypoint.new(0.848, Color3.fromRGB(255, 255, 255)),
-				ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 255, 255))
+				ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
+				ColorSequenceKeypoint.new(0.46, Color3.fromRGB(255, 0, 0)),
+				ColorSequenceKeypoint.new(0.509, Color3.fromRGB(255, 0, 0)),
+				ColorSequenceKeypoint.new(0.612, Color3.fromRGB(255, 0, 0)),
+				ColorSequenceKeypoint.new(0.649, Color3.fromRGB(255, 0, 0)),
+				ColorSequenceKeypoint.new(0.848, Color3.fromRGB(255, 0, 0)),
+				ColorSequenceKeypoint.new(1, Color3.fromRGB(255, 0, 0))
 			}
 			EyesParticle.Transparency = NumberSequence.new{
 				NumberSequenceKeypoint.new(0, .975),
@@ -748,7 +748,7 @@ local Entities = {
 			local Light1 = Instance.new("PointLight", Eyes)
 
 			Light1.Brightness = 2
-			Light1.Color = Color3.fromRGB(21,0,107)
+			Light1.Color = Color3.fromRGB(255, 0, 0)
 			Light1.Enabled = true
 			Light1.Range = 60
 			Light1.Shadows = true
@@ -756,7 +756,7 @@ local Entities = {
 			local Light2 = Instance.new("PointLight", Eyes)
 
 			Light2.Brightness = 2
-			Light2.Color = Color3.fromRGB(51, 0, 255)
+			Light2.Color = Color3.fromRGB(255, 0, 0)
 			Light2.Enabled = true
 			Light2.Range = 25
 			Light2.Shadows = false
