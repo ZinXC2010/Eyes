@@ -245,7 +245,7 @@ Death = {
 	end,
 }
 
-local function Event(Module, ..)
+local function Event(Module, ...)
 	return firesignal(game.ReplicatedStorage.Bricks.UseEventModule.OnClientEvent, Module, unpack({...})) 
 end
 
