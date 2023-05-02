@@ -1,5 +1,5 @@
 -- //
-	
+
 --\\
 
 local v1 = game.Players.LocalPlayer.PlayerGui.MainUI
@@ -105,7 +105,7 @@ local SpawnerLibrary = {
 				end
 			end
 
-			firesignal(game.ReplicatedStorage.Bricks.DeathHint.OnClientEvent, "Bạn Đã Chết Bởi.. Blood Eyes")
+			firesignal(game.ReplicatedStorage.Bricks.DeathHint.OnClientEvent, Lines)
 		end)()
 	end
 }
@@ -639,6 +639,7 @@ local Entities = {
 		end,
 	},
 	Eyes = {
+		Eyes = {
 		Func = function(Args)
 			local Damage = Args.Damage or 25
 			local Room = workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]
