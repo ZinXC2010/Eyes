@@ -780,6 +780,8 @@ local Entities = {
 							game.Players.LocalPlayer.Character.Humanoid.Health -= Damage
 						end
 					end
+					if game.Players.LocalPlayer.Character.Humanoid.Health == 0 then firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"Bạn Đã Chết Bởi Thực Thể Nào Đó Gọi là Blood Eyes", "Đôi Mắt Chúng Rất Tức Giận Và sẽ rút máu bạn rất nhiều", "Hãy Cẩn Thận", "..."}, "Blue")
+
 
 					task.wait(.175)
 				end
