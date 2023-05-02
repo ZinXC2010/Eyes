@@ -640,7 +640,7 @@ local Entities = {
 	},
 	Eyes = {
 		Func = function(Args)
-			local Damage = Args.Damage or 10
+			local Damage = Args.Damage or 25
 			local Room = workspace.CurrentRooms[game.ReplicatedStorage.GameData.LatestRoom.Value]
 
 			local Eyes = Instance.new("Part", workspace)
@@ -650,7 +650,7 @@ local Entities = {
 			local Attachment = Instance.new("Attachment", Eyes)
 
 			local Spark = Instance.new("ParticleEmitter", Attachment)
-			Spark.Texture = "rbxassetid://11347853954"
+			Spark.Texture = "rbxassetid://2581223252"
 			Spark.Color = ColorSequence.new{
 				ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
 				ColorSequenceKeypoint.new(0.324, Color3.fromRGB(255, 0, 0)),
@@ -685,7 +685,7 @@ local Entities = {
 			EyesParticle.LightInfluence = 0
 			EyesParticle.Brightness = 1.26
 			EyesParticle.Size = NumberSequence.new(4)
-			EyesParticle.Texture = "rbxassetid://11347853954"
+			EyesParticle.Texture = "rbxassetid://10183704772"
 			EyesParticle.Color = ColorSequence.new{
 				ColorSequenceKeypoint.new(0, Color3.fromRGB(255, 0, 0)),
 				ColorSequenceKeypoint.new(0.46, Color3.fromRGB(255, 0, 0)),
@@ -728,13 +728,13 @@ local Entities = {
 			flange.Rate = 2
 
 			local Sound2 = Instance.new("Sound", Eyes)
-			Sound2.SoundId = "rbxassetid://9117119031"
+			Sound2.SoundId = "rbxassetid://1228230799"
 			Sound2.PlaybackSpeed = 1
 			Sound2.Looped = true
 			Sound2:Play()
 
 			local Sound3 = Instance.new("Sound", Eyes)
-			Sound3.SoundId = "rbxassetid://9126213743"
+			Sound3.SoundId = "rbxassetid://9126213993"
 			Sound3.PlaybackSpeed = 1.05
 
 			Eyes.Name = "Lookman"
